@@ -1,5 +1,3 @@
-.PHONY: image run
-
 image:
 	nasm -f bin boot.asm -o boot.img
 
